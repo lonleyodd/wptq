@@ -1,0 +1,183 @@
+{
+    "vit.encoder.layer.0.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.1.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.2.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.3.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.4.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.5.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.6.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.7.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.8.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.9.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.10.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.11.output.elemadd":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 16,
+        "quantizer_x1.smooth": "do_value_clip",
+        "quantizer_x1.threshold": 16,
+        "quantizer_x2.smooth": "do_value_clip",
+        "quantizer_x2.threshold": 16
+        
+    },
+    "vit.encoder.layer.0.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+        
+    },
+    "vit.encoder.layer.1.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.2.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.3.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.4.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.5.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.6.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.7.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.8.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.9.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.10.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    },
+    "vit.encoder.layer.11.output.dense":{
+        "quantizer_y.smooth": "do_value_clip",
+        "quantizer_y.threshold": 1,
+        "quantizer_x.smooth": "do_value_clip",
+        "quantizer_x.threshold": 4
+    }
+}

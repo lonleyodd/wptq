@@ -1,0 +1,16 @@
+
+**/module_test
+**/*.jpg
+**/.ipynb_checkpoints
+**/__pycache__
+**/onet_nn_infer/.ipynb_checkpoints
+**/onet_nn_infer/__pycache__
+**/test.py
+**/model.onnx
+**/tools
+# 用于vit量化的测试脚本
+infer_contral.py
+# 开发中
+finetune.py
+
+test.py

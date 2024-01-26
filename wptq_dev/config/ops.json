@@ -1,0 +1,17 @@
+{
+    "_ops_comment_": 
+            "re_ops: replace special ops in user's model, on_ops: replace all target class ops like linear, conv2d",
+    "re_ops": {
+        "layers":12,
+        "ops":
+            [
+                ["vit.encoder.layer.id.attention.attention.query",null],
+                ["vit.encoder.layer.id.attention.attention.key",null],
+                ["vit.encoder.layer.id.attention.attention.value",null],
+                ["vit.encoder.layer.id.attention.output.dense",     null],
+                ["vit.encoder.layer.id.intermediate.dense",     null],
+                ["vit.encoder.layer.id.output.dense",     "smooth"]
+            ]    
+    },
+    "on_ops":null
+}

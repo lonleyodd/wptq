@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program":"/home/wangh/miniconda3/envs/torch-nightly/bin/deepspeed",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES":"2,3,4,5"
+            },
+            "args": [
+                "--num_nodes","1",
+                "--num_gpus","2",
+                "/home/wangh/code/wptq/llama2.py",
+            ]
+        }
+    ]
+}

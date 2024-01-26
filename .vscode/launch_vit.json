@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                // "HF_DATASETS_OFFLINE":"1",
+                // "TRANSFORMERS_OFFLINE":"1",
+                "CUDA_VISIBLE_DEVICES":"7"
+            },
+            "args": [
+                "--train_dir" ,"/nvme/wangh/data/ImageNet/train" ,
+                "--validation_dir", "/nvme/wangh/data/ImageNet/val" ,
+                "--output_dir","./quant_eval_outputs/",
+                "--remove_unused_columns", "False",
+                "--do_eval", 
+                "--learning_rate","2e-5",
+                "--num_train_epochs", "5", 
+                "--per_device_train_batch_size","64", 
+                "--per_device_eval_batch_size" ,"64", 
+                "--logging_strategy", "steps",
+                "--logging_steps" ,"10" ,
+                "--evaluation_strategy" ,"epoch" ,
+                "--save_strategy", "epoch" ,
+                "--load_best_model_at_end" ,"True" ,
+                "--save_total_limit" ,"3" ,
+                "--seed" ,"1337"
+            ]
+        }
+    ]
+}
